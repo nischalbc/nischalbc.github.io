@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  font-family: sans-serif;
 }
 
 /*
@@ -261,6 +262,21 @@ textarea {
   }
 }
 
+.portfolio__main-container {
+  padding: 3rem 0
+}
+
+.portfolio__title {
+  text-align: center;
+  letter-spacing: 0.275rem;
+}
+.portfolio__main-title {
+  font-size: 3.2rem;
+}
+.portfolio__main-subtitle {
+  font-size: 1.2rem;
+  color: #7a7a7a;
+}
 
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
