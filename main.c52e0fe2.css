@@ -262,10 +262,32 @@ textarea {
   }
 }
 
-.portfolio__main-container {
-  padding: 3rem 0
+/*  Common Styles section */
+.fade-text {
+  color: #7a7a7a;
+}
+.summary-text {
+  font-size: 0.875rem;
+}
+.padding-1 {
+  padding: 0 1.2rem;
+}
+.heading-1 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.185rem;
+  margin: 1rem 0;
+}
+.heading-2 {
+
 }
 
+/* Developer Defined Styles section */
+.portfolio__main-container {
+  padding: 3rem 0;
+  margin: 0 15%;
+  letter-spacing: 0.0275rem;
+}
 .portfolio__title {
   text-align: center;
   letter-spacing: 0.275rem;
@@ -275,7 +297,22 @@ textarea {
 }
 .portfolio__main-subtitle {
   font-size: 1.2rem;
-  color: #7a7a7a;
+}
+.portfolio__contact {
+  color: #555555;
+  margin-bottom: 2.4rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.column-1 { width: 30%; }
+.column-2 { width: 70%; }
+.portfolio__body-morecontent {
+  margin: 1.4rem 0;
+}
+.education-section {
+  margin: 1rem 3rem 1rem 0;
 }
 
 
