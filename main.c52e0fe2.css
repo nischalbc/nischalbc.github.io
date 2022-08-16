@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #5a5a5a;
   font-size: 1em;
   line-height: 1.4;
   font-family: sans-serif;
@@ -263,14 +263,24 @@ textarea {
 }
 
 /*  Common Styles section */
+.foliocon {
+  font-size: 1.4rem;
+  vertical-align: middle;
+}
+.bold {
+  font-weight: 600;
+}
 .fade-text {
-  color: #7a7a7a;
+  color: #5a5a5a;
 }
 .summary-text {
   font-size: 0.875rem;
 }
-.padding-1 {
+.padding-x-1 {
   padding: 0 1.2rem;
+}
+.padding-t-2 {
+  padding: 2.4rem 0 0 0;
 }
 .heading-1 {
   font-size: 1.6rem;
@@ -278,10 +288,6 @@ textarea {
   letter-spacing: 0.185rem;
   margin: 1rem 0;
 }
-.heading-2 {
-
-}
-
 /* Developer Defined Styles section */
 .portfolio__main-container {
   padding: 3rem 0;
@@ -313,6 +319,10 @@ textarea {
 }
 .education-section {
   margin: 1rem 3rem 1rem 0;
+}
+.work__title-year {
+  display: flex;
+  justify-content: space-between;
 }
 
 
