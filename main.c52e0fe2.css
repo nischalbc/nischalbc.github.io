@@ -282,18 +282,53 @@ textarea {
 .padding-t-2 {
   padding: 2.4rem 0 0 0;
 }
+.padding-ls {
+  padding-left: 0.25rem;
+}
 .heading-1 {
   font-size: 1.6rem;
   text-transform: uppercase;
   letter-spacing: 0.185rem;
   margin: 1rem 0;
+  font-weight: bold;
 }
-/* Developer Defined Styles section */
+.heading-2 {
+  font-size: 0.875rem;
+  letter-spacing: 0.125rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
 .portfolio__main-container {
   padding: 3rem 0;
   margin: 0 15%;
   letter-spacing: 0.0275rem;
 }
+
+@media screen and (min-width: 1080px) {
+  .portfolio__main-container {
+    margin: 0 10%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .portfolio__main-container {
+    margin: 0 15%;
+  }
+}
+
+/* Developer Defined Styles section */
+@media screen and (min-width: 1440px) {
+ .portfolio__main-container {
+   margin: 0 20%;
+ }
+}
+
+@media screen and (max-width: 900px) {
+  .portfolio__main-container {
+    margin: 0 5%;
+  }
+}
+
 .portfolio__title {
   text-align: center;
   letter-spacing: 0.275rem;
@@ -308,15 +343,21 @@ textarea {
   color: #555555;
   margin-bottom: 2.4rem;
 }
+@media screen and (max-width: 900px) {
+  .portfolio__contact .flex-container {
+    display: block;
+    padding: 0;
+  }
+  .portfolio__contact .flex-container .column {
+    margin: 0.75rem 0;
+  }
+}
 .flex-container {
   display: flex;
   justify-content: space-between;
 }
 .column-1 { width: 30%; }
 .column-2 { width: 70%; }
-.portfolio__body-morecontent {
-  margin: 1.4rem 0;
-}
 .education-section {
   margin: 1rem 3rem 1rem 0;
 }
@@ -324,6 +365,48 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
+
+.section-mobile {
+  display: none;
+}
+.skill-section-line {
+  margin: 1.5rem 3rem 1.5rem 0;
+}
+.skill-subsection {
+  margin: 1rem 3rem 1rem 0;
+}
+.hobby-star {
+  font-size: 0.8rem;
+}
+.hobby-label {
+  padding-right: 0.5rem;
+}
+.hobbies-sub-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .skill-section, .hobbies-section {
+    display: none;
+  }
+  .skill-section-line {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+  .section-mobile {
+    display: block;
+    width: 100%;
+  }
+  .portfolio__body-morecontent {
+    display: block;
+  }
+  .portfolio__body-morecontent .column-1,
+  .portfolio__body-morecontent .column-2 {
+    width: 100%;
+  }
+}
+
+
 
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
