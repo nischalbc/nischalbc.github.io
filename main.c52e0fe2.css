@@ -336,6 +336,12 @@ textarea {
 .portfolio__main-title {
   font-size: 3.2rem;
 }
+@media screen and (max-width: 900px) {
+  .portfolio__main-title {
+    font-size: 2.4rem;
+  }
+}
+
 .portfolio__main-subtitle {
   font-size: 1.2rem;
 }
@@ -378,13 +384,58 @@ textarea {
 .hobby-star {
   font-size: 0.8rem;
 }
-.hobby-label {
-  padding-right: 0.5rem;
-}
 .hobbies-sub-section {
   display: flex;
   justify-content: space-between;
 }
+.hobby {
+  text-align: center;
+}
+.hobby-label-container {
+  margin-top: 0.8rem;
+}
+.hobby-icon-container img,
+.footer__content-linksection img{
+  height: 36px;
+}
+.hobby-label-container .hobby-label {
+  font-size: 1rem;
+}
+
+.portfolio__footer {
+  color: #5a5a5a;
+  text-align: center;
+  margin-top: 2rem;
+}
+.footer__heading {
+  font-size: 1.2rem;
+  letter-spacing: 0.125rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+.footer__content-linksection {
+  margin: 1rem;
+  cursor: pointer;
+}
+.footer__content-linksection img:hover {
+  transform: scale(120%);
+  transition: 275ms;
+}
+.footer__content-linksection img.linkedin:hover {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(205deg) brightness(119%) contrast(119%);
+}
+.footer__content-linksection img.instagram:hover {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(312deg) brightness(119%) contrast(119%);
+}
+.footer__content-linksection img.facebook:hover {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(209deg) brightness(119%) contrast(119%);
+}
+
 
 @media screen and (max-width: 900px) {
   .skill-section, .hobbies-section {
@@ -403,6 +454,12 @@ textarea {
   .portfolio__body-morecontent .column-1,
   .portfolio__body-morecontent .column-2 {
     width: 100%;
+  }
+  .hobby-icon-container img {
+    height: 28px;
+  }
+  .hobby-label-container .hobby-label {
+    font-size: 0.8rem;
   }
 }
 
