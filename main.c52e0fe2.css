@@ -381,6 +381,9 @@ textarea {
 .skill-subsection {
   margin: 1rem 3rem 1rem 0;
 }
+.heading-icon {
+  height: 1.8rem;
+}
 .hobby-star {
   font-size: 0.8rem;
 }
@@ -426,15 +429,19 @@ textarea {
   transform: scale(120%);
   transition: 275ms;
 }
-.footer__content-linksection img.linkedin:hover {
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(205deg) brightness(119%) contrast(119%);
+.footer__content-linksection img.linkedin {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(177deg) brightness(70%) contrast(80%);
 }
-.footer__content-linksection img.instagram:hover {
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(312deg) brightness(119%) contrast(119%);
+.footer__content-linksection img.instagram {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(315deg) brightness(90%) contrast(90%);
 }
-.footer__content-linksection img.facebook:hover {
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(209deg) brightness(119%) contrast(119%);
+.footer__content-linksection img.facebook {
+  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(196deg) brightness(90%) contrast(80%);
 }
+.footer__content-linksection img.github {
+  filter: invert(1%) sepia(9%) saturate(1000%) hue-rotate(204deg) brightness(1%) contrast(100%);
+}
+
 
 
 @media screen and (max-width: 900px) {
